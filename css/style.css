@@ -1,5 +1,5 @@
 body {
-  background-color:gold;
+  background-color:#B22222;
   padding-top:50px;
 }
 h1 {
@@ -23,11 +23,12 @@ time {
   overflow: hidden;
   margin:50px auto;
 }
-#board .tile{
-  background:red;
+#board .tile {
+  background:#DAA520;
 }
 
-#board .tile, #board .tile img{
+#board .tile,
+#board .tile img{
   width:100px;
   height:100px;
   display:block;
@@ -38,6 +39,10 @@ time {
   border-radius: 50%;
 }
 
-#board .tile img{
-  visibility: hidden;
+#board .tile img {
+  visibility:hidden;
+}
+
+#board .tile.active img {
+  visibility:visible;
 }
